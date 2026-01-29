@@ -1,0 +1,579 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1342pt" height="1288pt" viewBox="0.00 0.00 1342.00 1288.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1284.27)">
+<title>ConsensusCodec</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1284.27 1337.61,-1284.27 1337.61,4 -4,4"/>
+<!-- Decodable -->
+<g id="node1" class="node">
+<title>Decodable</title>
+<ellipse fill="#eeeeff" stroke="black" cx="52.32" cy="-560" rx="52.32" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="52.32" y="-555.8" font-family="Inter" font-size="14.00">Decodable</text>
+</g>
+<!-- u8 -->
+<g id="node3" class="node">
+<title>u8</title>
+<path fill="none" stroke="black" d="M1321.61,-595C1321.61,-595 1291.61,-595 1291.61,-595 1285.61,-595 1279.61,-589 1279.61,-583 1279.61,-583 1279.61,-571 1279.61,-571 1279.61,-565 1285.61,-559 1291.61,-559 1291.61,-559 1321.61,-559 1321.61,-559 1327.61,-559 1333.61,-565 1333.61,-571 1333.61,-571 1333.61,-583 1333.61,-583 1333.61,-589 1327.61,-595 1321.61,-595"/>
+<text xml:space="preserve" text-anchor="middle" x="1306.61" y="-572.8" font-family="Inter" font-size="14.00">u8</text>
+</g>
+<!-- Decodable&#45;&gt;u8 -->
+<g id="edge1" class="edge">
+<title>Decodable-&gt;u8</title>
+<path fill="none" stroke="black" d="M55.61,-578.05C63.78,-639.59 93.67,-839.62 141.65,-879 183.53,-913.38 209.08,-886 263.23,-888 299.32,-889.33 308.59,-891.91 344.49,-888 393.75,-882.64 405.65,-877.34 453.37,-864 501.17,-850.64 616.33,-802.71 664.79,-792 856.24,-749.69 908.91,-769.55 1103.43,-745 1173.91,-736.1 1207.75,-768.32 1261.61,-722 1295.01,-693.28 1303.54,-640.1 1305.45,-606.74"/>
+<polygon fill="black" stroke="black" points="1308.94,-607.07 1305.83,-596.94 1301.94,-606.8 1308.94,-607.07"/>
+</g>
+<!-- u16 -->
+<g id="node4" class="node">
+<title>u16</title>
+<path fill="none" stroke="black" d="M1321.61,-134C1321.61,-134 1291.61,-134 1291.61,-134 1285.61,-134 1279.61,-128 1279.61,-122 1279.61,-122 1279.61,-110 1279.61,-110 1279.61,-104 1285.61,-98 1291.61,-98 1291.61,-98 1321.61,-98 1321.61,-98 1327.61,-98 1333.61,-104 1333.61,-110 1333.61,-110 1333.61,-122 1333.61,-122 1333.61,-128 1327.61,-134 1321.61,-134"/>
+<text xml:space="preserve" text-anchor="middle" x="1306.61" y="-111.8" font-family="Inter" font-size="14.00">u16</text>
+</g>
+<!-- Decodable&#45;&gt;u16 -->
+<g id="edge2" class="edge">
+<title>Decodable-&gt;u16</title>
+<path fill="none" stroke="black" d="M54.44,-541.75C59.8,-459.18 84.89,-120.94 141.65,-34 156.5,-11.25 165.27,0 192.44,0 192.44,0 192.44,0 1059.1,0 1143.67,0 1230.34,-56.58 1274.94,-90.71"/>
+<polygon fill="black" stroke="black" points="1272.57,-93.3 1282.61,-96.69 1276.88,-87.78 1272.57,-93.3"/>
+</g>
+<!-- u32 -->
+<g id="node5" class="node">
+<title>u32</title>
+<path fill="none" stroke="black" d="M1321.61,-1101C1321.61,-1101 1291.61,-1101 1291.61,-1101 1285.61,-1101 1279.61,-1095 1279.61,-1089 1279.61,-1089 1279.61,-1077 1279.61,-1077 1279.61,-1071 1285.61,-1065 1291.61,-1065 1291.61,-1065 1321.61,-1065 1321.61,-1065 1327.61,-1065 1333.61,-1071 1333.61,-1077 1333.61,-1077 1333.61,-1089 1333.61,-1089 1333.61,-1095 1327.61,-1101 1321.61,-1101"/>
+<text xml:space="preserve" text-anchor="middle" x="1306.61" y="-1078.8" font-family="Inter" font-size="14.00">u32</text>
+</g>
+<!-- Decodable&#45;&gt;u32 -->
+<g id="edge3" class="edge">
+<title>Decodable-&gt;u32</title>
+<path fill="none" stroke="black" d="M54.9,-578.34C64.71,-689.94 119.45,-1273 192.44,-1273 192.44,-1273 192.44,-1273 1059.1,-1273 1150.16,-1273 1193.54,-1302.47 1261.61,-1242 1298.45,-1209.27 1305.65,-1148.72 1306.41,-1112.52"/>
+<polygon fill="black" stroke="black" points="1309.91,-1112.78 1306.44,-1102.77 1302.91,-1112.76 1309.91,-1112.78"/>
+</g>
+<!-- u64 -->
+<g id="node6" class="node">
+<title>u64</title>
+<path fill="none" stroke="black" d="M1321.61,-266C1321.61,-266 1291.61,-266 1291.61,-266 1285.61,-266 1279.61,-260 1279.61,-254 1279.61,-254 1279.61,-242 1279.61,-242 1279.61,-236 1285.61,-230 1291.61,-230 1291.61,-230 1321.61,-230 1321.61,-230 1327.61,-230 1333.61,-236 1333.61,-242 1333.61,-242 1333.61,-254 1333.61,-254 1333.61,-260 1327.61,-266 1321.61,-266"/>
+<text xml:space="preserve" text-anchor="middle" x="1306.61" y="-243.8" font-family="Inter" font-size="14.00">u64</text>
+</g>
+<!-- Decodable&#45;&gt;u64 -->
+<g id="edge4" class="edge">
+<title>Decodable-&gt;u64</title>
+<path fill="none" stroke="black" d="M55.86,-541.83C64.05,-484.02 91.07,-299.23 122.65,-148 134.48,-91.32 134.54,-38 192.44,-38 192.44,-38 192.44,-38 742.78,-38 978.78,-38 1078.06,-2.66 1261.61,-151 1282.46,-167.85 1293.81,-196.71 1299.73,-218.59"/>
+<polygon fill="black" stroke="black" points="1296.28,-219.24 1302.06,-228.12 1303.08,-217.58 1296.28,-219.24"/>
+</g>
+<!-- CompactSize -->
+<g id="node7" class="node">
+<title>CompactSize</title>
+<path fill="none" stroke="black" d="M1091.43,-489C1091.43,-489 1024.78,-489 1024.78,-489 1018.78,-489 1012.78,-483 1012.78,-477 1012.78,-477 1012.78,-465 1012.78,-465 1012.78,-459 1018.78,-453 1024.78,-453 1024.78,-453 1091.43,-453 1091.43,-453 1097.43,-453 1103.43,-459 1103.43,-465 1103.43,-465 1103.43,-477 1103.43,-477 1103.43,-483 1097.43,-489 1091.43,-489"/>
+<text xml:space="preserve" text-anchor="middle" x="1058.1" y="-466.8" font-family="Inter" font-size="14.00">CompactSize</text>
+</g>
+<!-- Decodable&#45;&gt;CompactSize -->
+<g id="edge5" class="edge">
+<title>Decodable-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M54.54,-541.62C60.86,-453.21 93.64,-76 192.44,-76 192.44,-76 192.44,-76 524.08,-76 695.94,-76 749.77,-86.16 898.66,-172 951.51,-202.47 963.51,-217.62 994.78,-270 1027.95,-325.56 1045.05,-400.44 1052.44,-441.32"/>
+<polygon fill="black" stroke="black" points="1048.99,-441.87 1054.14,-451.13 1055.89,-440.68 1048.99,-441.87"/>
+</g>
+<!-- String -->
+<g id="node8" class="node">
+<title>String</title>
+<path fill="none" stroke="black" d="M882.71,-434C882.71,-434 852.71,-434 852.71,-434 846.71,-434 840.71,-428 840.71,-422 840.71,-422 840.71,-410 840.71,-410 840.71,-404 846.71,-398 852.71,-398 852.71,-398 882.71,-398 882.71,-398 888.71,-398 894.71,-404 894.71,-410 894.71,-410 894.71,-422 894.71,-422 894.71,-428 888.71,-434 882.71,-434"/>
+<text xml:space="preserve" text-anchor="middle" x="867.71" y="-411.8" font-family="Inter" font-size="14.00">String</text>
+</g>
+<!-- Decodable&#45;&gt;String -->
+<g id="edge6" class="edge">
+<title>Decodable-&gt;String</title>
+<path fill="none" stroke="black" d="M58.59,-541.92C76.22,-485.35 139.1,-311.91 263.23,-252 295.75,-236.3 308.55,-248.44 344.49,-252 397.97,-257.3 773.83,-317.52 818.77,-347 833.88,-356.92 845.6,-373.4 853.67,-387.77"/>
+<polygon fill="black" stroke="black" points="850.44,-389.16 858.19,-396.4 856.64,-385.91 850.44,-389.16"/>
+</g>
+<!-- Txid -->
+<g id="node9" class="node">
+<title>Txid</title>
+<path fill="none" stroke="black" d="M882.71,-934C882.71,-934 852.71,-934 852.71,-934 846.71,-934 840.71,-928 840.71,-922 840.71,-922 840.71,-910 840.71,-910 840.71,-904 846.71,-898 852.71,-898 852.71,-898 882.71,-898 882.71,-898 888.71,-898 894.71,-904 894.71,-910 894.71,-910 894.71,-922 894.71,-922 894.71,-928 888.71,-934 882.71,-934"/>
+<text xml:space="preserve" text-anchor="middle" x="867.71" y="-911.8" font-family="Inter" font-size="14.00">Txid</text>
+</g>
+<!-- Decodable&#45;&gt;Txid -->
+<g id="edge10" class="edge">
+<title>Decodable-&gt;Txid</title>
+<path fill="none" stroke="black" d="M53.85,-578.28C57.1,-674.62 78.3,-1119 192.44,-1119 192.44,-1119 192.44,-1119 524.08,-1119 660.92,-1119 790.96,-997.67 842.93,-942.61"/>
+<polygon fill="black" stroke="black" points="845.32,-945.19 849.56,-935.48 840.19,-940.42 845.32,-945.19"/>
+</g>
+<!-- Witness -->
+<g id="node10" class="node">
+<title>Witness</title>
+<path fill="none" stroke="black" d="M886.27,-659C886.27,-659 849.16,-659 849.16,-659 843.16,-659 837.16,-653 837.16,-647 837.16,-647 837.16,-635 837.16,-635 837.16,-629 843.16,-623 849.16,-623 849.16,-623 886.27,-623 886.27,-623 892.27,-623 898.27,-629 898.27,-635 898.27,-635 898.27,-647 898.27,-647 898.27,-653 892.27,-659 886.27,-659"/>
+<text xml:space="preserve" text-anchor="middle" x="867.71" y="-636.8" font-family="Inter" font-size="14.00">Witness</text>
+</g>
+<!-- Decodable&#45;&gt;Witness -->
+<g id="edge9" class="edge">
+<title>Decodable-&gt;Witness</title>
+<path fill="none" stroke="black" d="M103.89,-556.24C197.72,-550.43 404.72,-543.1 574.79,-576 616.62,-584.09 623.56,-598.28 664.79,-609 719.62,-623.25 784.58,-632.17 825.72,-636.87"/>
+<polygon fill="black" stroke="black" points="825.09,-640.32 835.41,-637.94 825.86,-633.36 825.09,-640.32"/>
+</g>
+<!-- TxIn -->
+<g id="node11" class="node">
+<title>TxIn</title>
+<path fill="none" stroke="black" d="M634.79,-934C634.79,-934 604.79,-934 604.79,-934 598.79,-934 592.79,-928 592.79,-922 592.79,-922 592.79,-910 592.79,-910 592.79,-904 598.79,-898 604.79,-898 604.79,-898 634.79,-898 634.79,-898 640.79,-898 646.79,-904 646.79,-910 646.79,-910 646.79,-922 646.79,-922 646.79,-928 640.79,-934 634.79,-934"/>
+<text xml:space="preserve" text-anchor="middle" x="619.79" y="-911.8" font-family="Inter" font-size="14.00">TxIn</text>
+</g>
+<!-- Decodable&#45;&gt;TxIn -->
+<g id="edge8" class="edge">
+<title>Decodable-&gt;TxIn</title>
+<path fill="none" stroke="black" d="M53.67,-578.29C55.41,-648.1 65.6,-896.33 122.65,-944 257.51,-1056.7 491.92,-972.3 582.04,-933.13"/>
+<polygon fill="black" stroke="black" points="583.18,-936.45 590.91,-929.2 580.35,-930.05 583.18,-936.45"/>
+</g>
+<!-- TxOut -->
+<g id="node12" class="node">
+<title>TxOut</title>
+<path fill="none" stroke="black" d="M634.79,-385C634.79,-385 604.79,-385 604.79,-385 598.79,-385 592.79,-379 592.79,-373 592.79,-373 592.79,-361 592.79,-361 592.79,-355 598.79,-349 604.79,-349 604.79,-349 634.79,-349 634.79,-349 640.79,-349 646.79,-355 646.79,-361 646.79,-361 646.79,-373 646.79,-373 646.79,-379 640.79,-385 634.79,-385"/>
+<text xml:space="preserve" text-anchor="middle" x="619.79" y="-362.8" font-family="Inter" font-size="14.00">TxOut</text>
+</g>
+<!-- Decodable&#45;&gt;TxOut -->
+<g id="edge12" class="edge">
+<title>Decodable-&gt;TxOut</title>
+<path fill="none" stroke="black" d="M57.9,-541.68C67.31,-508.25 92.21,-437.77 141.65,-405 280.74,-312.81 495.2,-341.87 581.21,-358.68"/>
+<polygon fill="black" stroke="black" points="580.49,-362.11 590.99,-360.66 581.88,-355.25 580.49,-362.11"/>
+</g>
+<!-- Transaction -->
+<g id="node13" class="node">
+<title>Transaction</title>
+<path fill="none" stroke="black" d="M222.48,-870C222.48,-870 164.4,-870 164.4,-870 158.4,-870 152.4,-864 152.4,-858 152.4,-858 152.4,-846 152.4,-846 152.4,-840 158.4,-834 164.4,-834 164.4,-834 222.48,-834 222.48,-834 228.48,-834 234.48,-840 234.48,-846 234.48,-846 234.48,-858 234.48,-858 234.48,-864 228.48,-870 222.48,-870"/>
+<text xml:space="preserve" text-anchor="middle" x="193.44" y="-847.8" font-family="Inter" font-size="14.00">Transaction</text>
+</g>
+<!-- Decodable&#45;&gt;Transaction -->
+<g id="edge13" class="edge">
+<title>Decodable-&gt;Transaction</title>
+<path fill="none" stroke="black" d="M61.82,-577.83C85.14,-626.78 150.34,-763.64 178.83,-823.43"/>
+<polygon fill="black" stroke="black" points="175.59,-824.77 183.05,-832.3 181.91,-821.76 175.59,-824.77"/>
+</g>
+<!-- VecTxIn -->
+<g id="node14" class="node">
+<title>VecTxIn</title>
+<path fill="none" stroke="black" d="M436.7,-709C436.7,-709 379.16,-709 379.16,-709 373.16,-709 367.16,-703 367.16,-697 367.16,-697 367.16,-685 367.16,-685 367.16,-679 373.16,-673 379.16,-673 379.16,-673 436.7,-673 436.7,-673 442.7,-673 448.7,-679 448.7,-685 448.7,-685 448.7,-697 448.7,-697 448.7,-703 442.7,-709 436.7,-709"/>
+<text xml:space="preserve" text-anchor="middle" x="407.93" y="-686.8" font-family="Inter" font-size="14.00">Vec&lt;TxIn&gt;</text>
+</g>
+<!-- Decodable&#45;&gt;VecTxIn -->
+<g id="edge7" class="edge">
+<title>Decodable-&gt;VecTxIn</title>
+<path fill="none" stroke="black" d="M81.01,-575.5C120.4,-596.98 195.38,-635.77 263.23,-659 293.3,-669.3 328.07,-677.14 355.87,-682.49"/>
+<polygon fill="black" stroke="black" points="354.98,-685.88 365.45,-684.28 356.26,-679 354.98,-685.88"/>
+</g>
+<!-- VecTxOut -->
+<g id="node15" class="node">
+<title>VecTxOut</title>
+<path fill="none" stroke="black" d="M441.37,-514C441.37,-514 374.49,-514 374.49,-514 368.49,-514 362.49,-508 362.49,-502 362.49,-502 362.49,-490 362.49,-490 362.49,-484 368.49,-478 374.49,-478 374.49,-478 441.37,-478 441.37,-478 447.37,-478 453.37,-484 453.37,-490 453.37,-490 453.37,-502 453.37,-502 453.37,-508 447.37,-514 441.37,-514"/>
+<text xml:space="preserve" text-anchor="middle" x="407.93" y="-491.8" font-family="Inter" font-size="14.00">Vec&lt;TxOut&gt;</text>
+</g>
+<!-- Decodable&#45;&gt;VecTxOut -->
+<g id="edge11" class="edge">
+<title>Decodable-&gt;VecTxOut</title>
+<path fill="none" stroke="black" d="M98.04,-550.8C106.22,-549.16 114.68,-547.5 122.65,-546 201.82,-531.05 293.68,-515.15 351.06,-505.4"/>
+<polygon fill="black" stroke="black" points="351.29,-508.91 360.57,-503.79 350.12,-502.01 351.29,-508.91"/>
+</g>
+<!-- Encodable -->
+<g id="node2" class="node">
+<title>Encodable</title>
+<ellipse fill="#eeffee" stroke="black" cx="193.44" cy="-432" rx="51.79" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="193.44" y="-427.8" font-family="Inter" font-size="14.00">Encodable</text>
+</g>
+<!-- Encodable&#45;&gt;u8 -->
+<g id="edge14" class="edge">
+<title>Encodable-&gt;u8</title>
+<path fill="none" stroke="black" d="M208.24,-414.34C221.02,-399.07 241.31,-377.4 263.23,-364 423.53,-266.03 479.29,-261.71 664.79,-232 745.87,-219.02 1244.56,-245.15 1261.61,-261 1302.94,-299.41 1306.35,-476.79 1306.03,-547.65"/>
+<polygon fill="black" stroke="black" points="1302.53,-547.29 1305.95,-557.31 1309.53,-547.34 1302.53,-547.29"/>
+</g>
+<!-- Encodable&#45;&gt;u16 -->
+<g id="edge15" class="edge">
+<title>Encodable-&gt;u16</title>
+<path fill="none" stroke="black" d="M194.12,-413.78C194.36,-369.42 201.31,-254.82 263.23,-192 295.58,-159.18 317.42,-171.64 362.49,-162 707.64,-88.18 1139.33,-105.99 1267.86,-113.52"/>
+<polygon fill="black" stroke="black" points="1267.63,-117.01 1277.83,-114.12 1268.05,-110.03 1267.63,-117.01"/>
+</g>
+<!-- Encodable&#45;&gt;u32 -->
+<g id="edge16" class="edge">
+<title>Encodable-&gt;u32</title>
+<path fill="none" stroke="black" d="M195.59,-450.28C200.04,-515.71 218.24,-737.15 263.23,-789 288.26,-817.85 311.35,-798 344.49,-817 425.87,-863.67 577.83,-1056.81 664.79,-1092 787.74,-1141.75 1131.35,-1123.97 1261.61,-1099 1263.92,-1098.56 1266.27,-1098.01 1268.62,-1097.39"/>
+<polygon fill="black" stroke="black" points="1269.5,-1100.78 1278.03,-1094.49 1267.44,-1094.09 1269.5,-1100.78"/>
+</g>
+<!-- Encodable&#45;&gt;u64 -->
+<g id="edge17" class="edge">
+<title>Encodable-&gt;u64</title>
+<path fill="none" stroke="black" d="M194.66,-413.65C196.19,-372.2 205.93,-270.77 263.23,-217 274.04,-206.85 507.25,-152 522.08,-152 522.08,-152 522.08,-152 1059.1,-152 1152.37,-152 1180.11,-161.66 1261.61,-207 1268.89,-211.05 1275.9,-216.55 1282.11,-222.21"/>
+<polygon fill="black" stroke="black" points="1279.33,-224.39 1288.94,-228.85 1284.21,-219.37 1279.33,-224.39"/>
+</g>
+<!-- Encodable&#45;&gt;CompactSize -->
+<g id="edge20" class="edge">
+<title>Encodable-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M222.35,-416.72C234.65,-410.38 249.42,-403.28 263.23,-398 352.92,-363.69 376.22,-353.01 471.37,-340 624.36,-319.08 665.8,-322.95 818.77,-344 898.76,-355.01 927.49,-344.37 994.78,-389 1015.09,-402.47 1031.43,-424.83 1042.28,-442.8"/>
+<polygon fill="black" stroke="black" points="1039.24,-444.54 1047.27,-451.46 1045.31,-441.05 1039.24,-444.54"/>
+</g>
+<!-- Encodable&#45;&gt;String -->
+<g id="edge19" class="edge">
+<title>Encodable-&gt;String</title>
+<path fill="none" stroke="black" d="M245.15,-433.96C351.66,-437.51 606.34,-442.97 818.77,-424 822.19,-423.69 825.73,-423.28 829.28,-422.81"/>
+<polygon fill="black" stroke="black" points="829.57,-426.31 838.93,-421.35 828.52,-419.38 829.57,-426.31"/>
+</g>
+<!-- Encodable&#45;&gt;Txid -->
+<g id="edge22" class="edge">
+<title>Encodable-&gt;Txid</title>
+<path fill="none" stroke="black" d="M196.06,-450.46C200.26,-486.63 214.82,-566.95 263.23,-609 290.07,-632.31 547.06,-659.75 574.79,-682 646.73,-739.72 592.81,-811.33 664.79,-869 677.61,-879.27 774.79,-898.79 829.52,-909.14"/>
+<polygon fill="black" stroke="black" points="828.55,-912.52 839.02,-910.93 829.84,-905.64 828.55,-912.52"/>
+</g>
+<!-- Encodable&#45;&gt;TxIn -->
+<g id="edge23" class="edge">
+<title>Encodable-&gt;TxIn</title>
+<path fill="none" stroke="black" d="M196.46,-450.47C203.11,-508.03 226.03,-682.86 263.23,-724 288.85,-752.33 309.85,-735.89 344.49,-752 434.29,-793.77 532.22,-857.02 583.28,-891.49"/>
+<polygon fill="black" stroke="black" points="581.06,-894.22 591.3,-896.93 584.99,-888.42 581.06,-894.22"/>
+</g>
+<!-- Encodable&#45;&gt;TxOut -->
+<g id="edge26" class="edge">
+<title>Encodable-&gt;TxOut</title>
+<path fill="none" stroke="black" d="M238.44,-422.88C246.67,-421.22 255.21,-419.53 263.23,-418 355.52,-400.41 378.27,-393.67 471.37,-381 508.59,-375.93 551.34,-372.09 581.19,-369.72"/>
+<polygon fill="black" stroke="black" points="581.14,-373.24 590.84,-368.98 580.6,-366.26 581.14,-373.24"/>
+</g>
+<!-- Encodable&#45;&gt;VecTxIn -->
+<g id="edge21" class="edge">
+<title>Encodable-&gt;VecTxIn</title>
+<path fill="none" stroke="black" d="M195.46,-450.41C198.62,-489.62 211.45,-582.04 263.23,-634 290.19,-661.06 309.06,-647.71 344.49,-662 349.1,-663.86 353.87,-665.88 358.61,-667.97"/>
+<polygon fill="black" stroke="black" points="356.96,-671.06 367.52,-671.96 359.82,-664.67 356.96,-671.06"/>
+</g>
+<!-- Encodable&#45;&gt;VecTxOut -->
+<g id="edge24" class="edge">
+<title>Encodable-&gt;VecTxOut</title>
+<path fill="none" stroke="black" d="M233.41,-443.74C266.56,-453.72 314.56,-468.18 351.67,-479.36"/>
+<polygon fill="black" stroke="black" points="350.29,-482.59 360.87,-482.13 352.3,-475.89 350.29,-482.59"/>
+</g>
+<!-- Arr32 -->
+<g id="node16" class="node">
+<title>Arr32</title>
+<path fill="none" stroke="black" d="M1076.46,-894C1076.46,-894 1039.75,-894 1039.75,-894 1033.75,-894 1027.75,-888 1027.75,-882 1027.75,-882 1027.75,-870 1027.75,-870 1027.75,-864 1033.75,-858 1039.75,-858 1039.75,-858 1076.46,-858 1076.46,-858 1082.46,-858 1088.46,-864 1088.46,-870 1088.46,-870 1088.46,-882 1088.46,-882 1088.46,-888 1082.46,-894 1076.46,-894"/>
+<text xml:space="preserve" text-anchor="middle" x="1058.1" y="-871.8" font-family="Inter" font-size="14.00">[u8; 32]</text>
+</g>
+<!-- Encodable&#45;&gt;Arr32 -->
+<g id="edge18" class="edge">
+<title>Encodable-&gt;Arr32</title>
+<path fill="none" stroke="black" d="M197.27,-450.2C203.28,-482.42 220.45,-549.38 263.23,-584 290.77,-606.29 541.48,-639.91 574.79,-652 617.21,-667.39 622.11,-684.35 664.79,-699 730.58,-721.58 753.9,-701.89 818.77,-727 898.9,-758.02 981.55,-816.86 1025.35,-850.57"/>
+<polygon fill="black" stroke="black" points="1023.11,-853.26 1033.15,-856.64 1027.41,-847.74 1023.11,-853.26"/>
+</g>
+<!-- Amount -->
+<g id="node17" class="node">
+<title>Amount</title>
+<path fill="none" stroke="black" d="M886.66,-217C886.66,-217 848.77,-217 848.77,-217 842.77,-217 836.77,-211 836.77,-205 836.77,-205 836.77,-193 836.77,-193 836.77,-187 842.77,-181 848.77,-181 848.77,-181 886.66,-181 886.66,-181 892.66,-181 898.66,-187 898.66,-193 898.66,-193 898.66,-205 898.66,-205 898.66,-211 892.66,-217 886.66,-217"/>
+<text xml:space="preserve" text-anchor="middle" x="867.71" y="-194.8" font-family="Inter" font-size="14.00">Amount</text>
+</g>
+<!-- Encodable&#45;&gt;Amount -->
+<g id="edge25" class="edge">
+<title>Encodable-&gt;Amount</title>
+<path fill="none" stroke="black" d="M222.92,-416.73C231.44,-410.76 239.91,-403.14 245.23,-394 277.24,-339.02 217.92,-296.66 263.23,-252 342.42,-173.95 702.44,-188.67 825.41,-196.16"/>
+<polygon fill="black" stroke="black" points="824.84,-199.63 835.04,-196.77 825.28,-192.65 824.84,-199.63"/>
+</g>
+<!-- CompactSize&#45;&gt;u8 -->
+<g id="edge27" class="edge">
+<title>CompactSize-&gt;u8</title>
+<path fill="none" stroke="black" d="M1076.39,-489.25C1088.12,-500.69 1104.53,-514.93 1121.43,-524 1134.49,-531.01 1218.54,-553.92 1268.48,-567.22"/>
+<polygon fill="black" stroke="black" points="1267.45,-570.56 1278.01,-569.75 1269.24,-563.8 1267.45,-570.56"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-569.29" font-family="Inter" font-size="14.00">decode prefix</text>
+</g>
+<!-- CompactSize&#45;&gt;u8 -->
+<g id="edge56" class="edge">
+<title>CompactSize-&gt;u8</title>
+<path fill="none" stroke="black" d="M1103.7,-476.06C1159.33,-482.69 1248.76,-494.49 1261.61,-503.2 1277.47,-513.94 1288.49,-532.47 1295.53,-548.27"/>
+<polygon fill="black" stroke="black" points="1292.18,-549.32 1299.21,-557.25 1298.66,-546.67 1292.18,-549.32"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-507.4" font-family="Inter" font-size="14.00">0..=0xFC</text>
+</g>
+<!-- CompactSize&#45;&gt;u16 -->
+<g id="edge28" class="edge">
+<title>CompactSize-&gt;u16</title>
+<path fill="none" stroke="black" d="M1065.07,-452.88C1073.65,-429.88 1091.79,-390.82 1121.43,-371.2 1174.03,-336.38 1217.4,-393.99 1261.61,-349 1281.75,-328.51 1274.15,-249.2 1279.61,-221 1284.59,-195.3 1291.86,-166.45 1297.44,-145.5"/>
+<polygon fill="black" stroke="black" points="1300.8,-146.49 1300.03,-135.92 1294.05,-144.66 1300.8,-146.49"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-375.4" font-family="Inter" font-size="14.00">if 0xFD</text>
+</g>
+<!-- CompactSize&#45;&gt;u16 -->
+<g id="edge57" class="edge">
+<title>CompactSize-&gt;u16</title>
+<path fill="none" stroke="black" d="M1065.13,-452.54C1074.73,-424.44 1095.15,-369.83 1121.43,-328.2 1167.92,-254.57 1239.12,-180.45 1277.97,-142.32"/>
+<polygon fill="black" stroke="black" points="1280.4,-144.85 1285.13,-135.36 1275.52,-139.83 1280.4,-144.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-332.4" font-family="Inter" font-size="14.00">0xFD..=0xFFFF</text>
+</g>
+<!-- CompactSize&#45;&gt;u32 -->
+<g id="edge29" class="edge">
+<title>CompactSize-&gt;u32</title>
+<path fill="none" stroke="black" d="M1065.61,-489.49C1081.5,-534.67 1121.03,-647.04 1121.43,-648 1176.2,-778.62 1210.2,-802.22 1261.61,-934.2 1277.41,-974.75 1290.79,-1023.38 1298.52,-1053.74"/>
+<polygon fill="black" stroke="black" points="1295.09,-1054.49 1300.92,-1063.34 1301.89,-1052.79 1295.09,-1054.49"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-938.4" font-family="Inter" font-size="14.00">if 0xFE</text>
+</g>
+<!-- CompactSize&#45;&gt;u32 -->
+<g id="edge58" class="edge">
+<title>CompactSize-&gt;u32</title>
+<path fill="none" stroke="black" d="M1064.18,-489.44C1072.14,-514.91 1090,-560.58 1121.43,-586 1171.92,-626.83 1220.25,-577.14 1261.61,-627.2 1288.75,-660.04 1301.29,-957.45 1304.65,-1053.34"/>
+<polygon fill="black" stroke="black" points="1301.15,-1053.37 1304.99,-1063.24 1308.15,-1053.13 1301.15,-1053.37"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-631.4" font-family="Inter" font-size="14.00">0x10000..=0xFFFFFFFF</text>
+</g>
+<!-- CompactSize&#45;&gt;u64 -->
+<g id="edge30" class="edge">
+<title>CompactSize-&gt;u64</title>
+<path fill="none" stroke="black" d="M1103.68,-461.71C1109.64,-460.5 1115.68,-459.31 1121.43,-458.2 1183.59,-446.23 1215.62,-476.5 1261.61,-433 1283.84,-411.97 1296.95,-324.4 1302.49,-277.68"/>
+<polygon fill="black" stroke="black" points="1305.94,-278.31 1303.59,-267.98 1298.98,-277.52 1305.94,-278.31"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-462.4" font-family="Inter" font-size="14.00">if 0xFF</text>
+</g>
+<!-- CompactSize&#45;&gt;u64 -->
+<g id="edge59" class="edge">
+<title>CompactSize-&gt;u64</title>
+<path fill="none" stroke="black" d="M1073.14,-452.71C1084.59,-439.2 1102,-421.58 1121.43,-412.2 1178.12,-384.84 1213.82,-432.97 1261.61,-392 1294.84,-363.51 1303.43,-310.69 1305.39,-277.55"/>
+<polygon fill="black" stroke="black" points="1308.88,-277.96 1305.79,-267.82 1301.88,-277.67 1308.88,-277.96"/>
+<text xml:space="preserve" text-anchor="middle" x="1191.52" y="-416.4" font-family="Inter" font-size="14.00">else</text>
+</g>
+<!-- String&#45;&gt;CompactSize -->
+<g id="edge31" class="edge">
+<title>String-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M895.03,-404.87C921.42,-395.47 962.62,-385.66 994.78,-400.2 1014.3,-409.02 1030.15,-427.32 1040.98,-443.11"/>
+<polygon fill="black" stroke="black" points="1037.87,-444.74 1046.24,-451.23 1043.74,-440.94 1037.87,-444.74"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-404.4" font-family="Inter" font-size="14.00">len</text>
+</g>
+<!-- String&#45;&gt;CompactSize -->
+<g id="edge55" class="edge">
+<title>String-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M894.83,-418.93C920.7,-422.31 961.19,-428.91 994.78,-440.2 1001.01,-442.29 1007.41,-444.89 1013.62,-447.68"/>
+<polygon fill="black" stroke="black" points="1011.94,-450.76 1022.48,-451.86 1014.93,-444.43 1011.94,-450.76"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-444.4" font-family="Inter" font-size="14.00">encode len</text>
+</g>
+<!-- Txid&#45;&gt;Arr32 -->
+<g id="edge41" class="edge">
+<title>Txid-&gt;Arr32</title>
+<path fill="none" stroke="black" d="M885.56,-897.64C894.03,-889.75 904.97,-881.39 916.66,-877.2 948.63,-865.73 987.4,-866.39 1016.09,-869.37"/>
+<polygon fill="black" stroke="black" points="1015.49,-872.82 1025.83,-870.53 1016.32,-865.87 1015.49,-872.82"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-881.4" font-family="Inter" font-size="14.00">read_exact 32</text>
+</g>
+<!-- Txid&#45;&gt;Arr32 -->
+<g id="edge62" class="edge">
+<title>Txid-&gt;Arr32</title>
+<path fill="none" stroke="black" d="M894.96,-912.27C920.57,-908.43 960.58,-901.9 994.78,-894 1001.84,-892.37 1009.28,-890.42 1016.47,-888.42"/>
+<polygon fill="black" stroke="black" points="1017.37,-891.8 1026.02,-885.68 1015.44,-885.08 1017.37,-891.8"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-913.03" font-family="Inter" font-size="14.00">bytes</text>
+</g>
+<!-- Witness&#45;&gt;u8 -->
+<g id="edge39" class="edge">
+<title>Witness-&gt;u8</title>
+<path fill="none" stroke="black" d="M898.57,-638.1C924.14,-635.52 961.94,-631.46 994.78,-627 1093.84,-613.54 1210.01,-593.79 1268.28,-583.61"/>
+<polygon fill="black" stroke="black" points="1268.74,-587.08 1277.99,-581.91 1267.53,-580.19 1268.74,-587.08"/>
+<text xml:space="preserve" text-anchor="middle" x="1058.1" y="-628.62" font-family="Inter" font-size="14.00">item count</text>
+</g>
+<!-- Witness&#45;&gt;CompactSize -->
+<g id="edge40" class="edge">
+<title>Witness-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M894.58,-622.5C901.53,-618.06 909.19,-613.62 916.66,-610.2 949.58,-595.11 966.69,-609.87 994.78,-587 1022.43,-564.5 1039.52,-526.37 1048.65,-500"/>
+<polygon fill="black" stroke="black" points="1051.95,-501.19 1051.72,-490.6 1045.29,-499.02 1051.95,-501.19"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-614.4" font-family="Inter" font-size="14.00">item len</text>
+</g>
+<!-- TxIn&#45;&gt;u32 -->
+<g id="edge35" class="edge">
+<title>TxIn-&gt;u32</title>
+<path fill="none" stroke="black" d="M627.37,-934.44C632.73,-949.58 640.43,-971.62 646.79,-991 655.21,-1016.64 643.06,-1032.99 664.79,-1049 719.89,-1089.59 750.34,-1049.98 818.77,-1049 862.29,-1048.38 873.14,-1046.82 916.66,-1046.2 1070.29,-1044 1110.93,-1038.98 1261.61,-1069 1263.79,-1069.43 1266.02,-1069.94 1268.25,-1070.49"/>
+<polygon fill="black" stroke="black" points="1267.31,-1073.86 1277.88,-1073.18 1269.19,-1067.12 1267.31,-1073.86"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-1050.4" font-family="Inter" font-size="14.00">output_index</text>
+</g>
+<!-- TxIn&#45;&gt;u32 -->
+<g id="edge37" class="edge">
+<title>TxIn-&gt;u32</title>
+<path fill="none" stroke="black" d="M624.57,-934.37C629.8,-954.69 641.4,-986.59 664.79,-1002 695.48,-1022.22 958.12,-1021.61 994.78,-1024.2 1113.4,-1032.59 1152.07,-997.73 1261.61,-1044 1268.94,-1047.1 1275.89,-1051.92 1282,-1057.14"/>
+<polygon fill="black" stroke="black" points="1279.51,-1059.6 1289.21,-1063.87 1284.29,-1054.48 1279.51,-1059.6"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-1028.4" font-family="Inter" font-size="14.00">sequence</text>
+</g>
+<!-- TxIn&#45;&gt;u32 -->
+<g id="edge64" class="edge">
+<title>TxIn-&gt;u32</title>
+<path fill="none" stroke="black" d="M632.33,-934.24C640.12,-944.86 651.4,-957.41 664.79,-964 784.24,-1022.74 1147.5,-946.46 1261.61,-1015 1276.41,-1023.88 1287.13,-1039.88 1294.28,-1054.12"/>
+<polygon fill="black" stroke="black" points="1291.08,-1055.53 1298.43,-1063.15 1297.44,-1052.6 1291.08,-1055.53"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-991.18" font-family="Inter" font-size="14.00">output_index</text>
+</g>
+<!-- TxIn&#45;&gt;u32 -->
+<g id="edge66" class="edge">
+<title>TxIn-&gt;u32</title>
+<path fill="none" stroke="black" d="M627.8,-934.31C633.41,-949.38 641.23,-971.38 646.79,-991 656.85,-1026.48 636.22,-1048.68 664.79,-1072 688.22,-1091.13 1134.15,-1085.7 1267.97,-1083.63"/>
+<polygon fill="black" stroke="black" points="1267.75,-1087.13 1277.7,-1083.47 1267.64,-1080.13 1267.75,-1087.13"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-1090.15" font-family="Inter" font-size="14.00">sequence</text>
+</g>
+<!-- TxIn&#45;&gt;String -->
+<g id="edge36" class="edge">
+<title>TxIn-&gt;String</title>
+<path fill="none" stroke="black" d="M620.04,-897.65C619.38,-858.84 622.73,-767.07 664.79,-707.2 711.04,-641.36 771.47,-677.08 818.77,-612 855.34,-561.69 864.24,-486.88 866.27,-445.76"/>
+<polygon fill="black" stroke="black" points="869.76,-446.02 866.64,-435.9 862.77,-445.76 869.76,-446.02"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-711.4" font-family="Inter" font-size="14.00">script_sig</text>
+</g>
+<!-- TxIn&#45;&gt;String -->
+<g id="edge65" class="edge">
+<title>TxIn-&gt;String</title>
+<path fill="none" stroke="black" d="M623.18,-897.89C627.31,-873.85 638.1,-831.72 664.79,-808.2 717.94,-761.36 772.42,-820.57 818.77,-767 841.17,-741.11 832.21,-647.93 836.77,-614 844.83,-554.02 855.77,-484.06 861.95,-445.43"/>
+<polygon fill="black" stroke="black" points="865.38,-446.18 863.51,-435.76 858.47,-445.07 865.38,-446.18"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-812.4" font-family="Inter" font-size="14.00">script_sig</text>
+</g>
+<!-- TxIn&#45;&gt;Txid -->
+<g id="edge34" class="edge">
+<title>TxIn-&gt;Txid</title>
+<path fill="none" stroke="black" d="M647.27,-928.75C652.93,-930.93 658.96,-932.85 664.79,-934 731.94,-947.2 751.43,-946.22 818.77,-934 822.36,-933.35 826.02,-932.44 829.65,-931.39"/>
+<polygon fill="black" stroke="black" points="830.5,-934.79 838.88,-928.32 828.29,-928.15 830.5,-934.79"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-947.74" font-family="Inter" font-size="14.00">txid</text>
+</g>
+<!-- TxIn&#45;&gt;Txid -->
+<g id="edge63" class="edge">
+<title>TxIn-&gt;Txid</title>
+<path fill="none" stroke="black" d="M646.83,-914.07C652.74,-913.71 658.98,-913.38 664.79,-913.2 733.19,-911.03 750.36,-911.2 818.77,-913.2 822.05,-913.3 825.46,-913.43 828.87,-913.58"/>
+<polygon fill="black" stroke="black" points="828.67,-917.08 838.84,-914.1 829.03,-910.09 828.67,-917.08"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-917.4" font-family="Inter" font-size="14.00">txid</text>
+</g>
+<!-- TxIn&#45;&gt;Witness -->
+<g id="edge38" class="edge">
+<title>TxIn-&gt;Witness</title>
+<path fill="none" stroke="black" d="M647.02,-900.49C652.8,-897.27 658.94,-894.01 664.79,-891.2 731.3,-859.19 770.2,-884.57 818.77,-829 858.04,-784.07 865.92,-711.28 867.05,-670.72"/>
+<polygon fill="black" stroke="black" points="870.55,-670.79 867.19,-660.74 863.55,-670.69 870.55,-670.79"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-895.4" font-family="Inter" font-size="14.00">witness new()</text>
+</g>
+<!-- TxOut&#45;&gt;u64 -->
+<g id="edge44" class="edge">
+<title>TxOut-&gt;u64</title>
+<path fill="none" stroke="black" d="M647.16,-351.42C652.83,-348.58 658.89,-345.92 664.79,-344 885.76,-271.95 1167.44,-253.67 1267.92,-249.3"/>
+<polygon fill="black" stroke="black" points="1267.9,-252.8 1277.75,-248.89 1267.61,-245.81 1267.9,-252.8"/>
+<text xml:space="preserve" text-anchor="middle" x="955.72" y="-289.18" font-family="Inter" font-size="14.00">amount sats</text>
+</g>
+<!-- TxOut&#45;&gt;String -->
+<g id="edge45" class="edge">
+<title>TxOut-&gt;String</title>
+<path fill="none" stroke="black" d="M647,-378.21C652.78,-380.37 658.93,-382.45 664.79,-384 731.69,-401.73 750.51,-395.8 818.77,-407.2 822.17,-407.77 825.69,-408.38 829.22,-409"/>
+<polygon fill="black" stroke="black" points="828.41,-412.41 838.87,-410.74 829.65,-405.52 828.41,-412.41"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-411.4" font-family="Inter" font-size="14.00">script_pubkey</text>
+</g>
+<!-- TxOut&#45;&gt;String -->
+<g id="edge71" class="edge">
+<title>TxOut-&gt;String</title>
+<path fill="none" stroke="black" d="M647.16,-359.73C686.46,-350.34 761.87,-338.01 818.77,-363.2 830.91,-368.57 841.28,-378.7 849.25,-388.66"/>
+<polygon fill="black" stroke="black" points="846.21,-390.44 854.97,-396.41 851.84,-386.28 846.21,-390.44"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-367.4" font-family="Inter" font-size="14.00">script_pubkey</text>
+</g>
+<!-- TxOut&#45;&gt;Amount -->
+<g id="edge70" class="edge">
+<title>TxOut-&gt;Amount</title>
+<path fill="none" stroke="black" d="M625.41,-348.73C631.36,-328.66 643.55,-296.68 664.79,-277.2 710.31,-235.44 780.58,-215.07 825.08,-205.84"/>
+<polygon fill="black" stroke="black" points="825.74,-209.28 834.87,-203.91 824.39,-202.41 825.74,-209.28"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-281.4" font-family="Inter" font-size="14.00">amount</text>
+</g>
+<!-- Transaction&#45;&gt;u8 -->
+<g id="edge48" class="edge">
+<title>Transaction-&gt;u8</title>
+<path fill="none" stroke="black" d="M234.76,-865.78C244.01,-868.36 253.87,-870.67 263.23,-872 348.72,-884.18 373.34,-864.44 453.37,-832 461.48,-828.71 463.12,-826.93 471.37,-824 516.24,-808.06 530.58,-813.69 574.79,-796 595.91,-787.55 643.04,-753.88 664.79,-747.2 792.2,-708.09 1155.2,-768.25 1261.61,-688 1287.16,-668.73 1297.9,-632.35 1302.39,-606.49"/>
+<polygon fill="black" stroke="black" points="1305.8,-607.35 1303.83,-596.94 1298.88,-606.31 1305.8,-607.35"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-751.4" font-family="Inter" font-size="14.00">if inputs empty: segwit flag</text>
+</g>
+<!-- Transaction&#45;&gt;u32 -->
+<g id="edge46" class="edge">
+<title>Transaction-&gt;u32</title>
+<path fill="none" stroke="black" d="M195.75,-870.47C202.29,-946.98 238.12,-1235 406.93,-1235 406.93,-1235 406.93,-1235 1059.1,-1235 1149.74,-1235 1191.07,-1267.91 1261.61,-1211 1291.19,-1187.14 1300.96,-1142.35 1304.14,-1112.59"/>
+<polygon fill="black" stroke="black" points="1307.62,-1113.01 1304.99,-1102.75 1300.64,-1112.41 1307.62,-1113.01"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-1239.2" font-family="Inter" font-size="14.00">version</text>
+</g>
+<!-- Transaction&#45;&gt;u32 -->
+<g id="edge52" class="edge">
+<title>Transaction-&gt;u32</title>
+<path fill="none" stroke="black" d="M202.25,-870.12C213.35,-894.46 235.45,-938.21 263.23,-969 330.28,-1043.31 566.78,-1152.68 664.79,-1173 729.72,-1186.46 1205.36,-1208.11 1261.61,-1173 1282.78,-1159.79 1294.04,-1133.13 1299.85,-1112.24"/>
+<polygon fill="black" stroke="black" points="1303.17,-1113.36 1302.18,-1102.81 1296.38,-1111.68 1303.17,-1113.36"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-1190.13" font-family="Inter" font-size="14.00">lock_time</text>
+</g>
+<!-- Transaction&#45;&gt;u32 -->
+<g id="edge54" class="edge">
+<title>Transaction-&gt;u32</title>
+<path fill="none" stroke="black" d="M215.45,-870.27C228.73,-881.44 246.5,-895.71 263.23,-907 348.11,-964.27 565.89,-1106.47 664.79,-1133 718.11,-1147.31 1198.37,-1164.33 1261.61,-1135 1272.8,-1129.81 1282.17,-1120.23 1289.35,-1110.69"/>
+<polygon fill="black" stroke="black" points="1292.15,-1112.79 1294.93,-1102.57 1286.38,-1108.83 1292.15,-1112.79"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-1149.97" font-family="Inter" font-size="14.00">lock_time</text>
+</g>
+<!-- Transaction&#45;&gt;Witness -->
+<g id="edge51" class="edge">
+<title>Transaction-&gt;Witness</title>
+<path fill="none" stroke="black" d="M234.69,-858.48C265.34,-862.01 308.3,-863.87 344.49,-854 407.64,-836.77 410.5,-803.28 471.37,-779.2 515.17,-761.87 529.53,-769.07 574.79,-756 615.58,-744.22 624.6,-737.67 664.79,-724 732.91,-700.83 754.24,-705.84 818.77,-674 823.85,-671.49 829,-668.5 833.96,-665.36"/>
+<polygon fill="black" stroke="black" points="835.53,-668.52 841.9,-660.05 831.64,-662.7 835.53,-668.52"/>
+<text xml:space="preserve" text-anchor="middle" x="523.08" y="-783.4" font-family="Inter" font-size="14.00">each input witness</text>
+</g>
+<!-- Transaction&#45;&gt;VecTxIn -->
+<g id="edge47" class="edge">
+<title>Transaction-&gt;VecTxIn</title>
+<path fill="none" stroke="black" d="M217.21,-833.52C230.53,-822.8 247.72,-809.1 263.23,-797.2 300.2,-768.83 343.27,-737.18 372.55,-715.87"/>
+<polygon fill="black" stroke="black" points="374.29,-718.93 380.32,-710.22 370.17,-713.27 374.29,-718.93"/>
+<text xml:space="preserve" text-anchor="middle" x="303.86" y="-801.4" font-family="Inter" font-size="14.00">inputs</text>
+</g>
+<!-- Transaction&#45;&gt;VecTxIn -->
+<g id="edge49" class="edge">
+<title>Transaction-&gt;VecTxIn</title>
+<path fill="none" stroke="black" d="M234.73,-842.78C277.74,-832.79 340.33,-817.77 344.49,-814 361.98,-798.13 352.3,-785.31 362.49,-764 369.89,-748.53 379.66,-732.16 388.16,-718.84"/>
+<polygon fill="black" stroke="black" points="391,-720.89 393.52,-710.59 385.14,-717.07 391,-720.89"/>
+<text xml:space="preserve" text-anchor="middle" x="303.86" y="-839.37" font-family="Inter" font-size="14.00">segwit inputs</text>
+</g>
+<!-- Transaction&#45;&gt;VecTxOut -->
+<g id="edge50" class="edge">
+<title>Transaction-&gt;VecTxOut</title>
+<path fill="none" stroke="black" d="M199.06,-833.51C208.11,-799.16 230.24,-723.85 263.23,-667.2 296.21,-610.56 348.23,-554.13 379.8,-522.3"/>
+<polygon fill="black" stroke="black" points="382.07,-524.98 386.68,-515.44 377.13,-520.02 382.07,-524.98"/>
+<text xml:space="preserve" text-anchor="middle" x="303.86" y="-671.4" font-family="Inter" font-size="14.00">outputs</text>
+</g>
+<!-- Transaction&#45;&gt;VecTxOut -->
+<g id="edge53" class="edge">
+<title>Transaction-&gt;VecTxOut</title>
+<path fill="none" stroke="black" d="M199.33,-833.95C207.86,-805.69 227.97,-750.86 263.23,-718.2 291.98,-691.57 317.88,-712.76 344.49,-684 385.96,-639.18 399.94,-566.09 404.61,-525.51"/>
+<polygon fill="black" stroke="black" points="408.07,-526.08 405.61,-515.77 401.11,-525.36 408.07,-526.08"/>
+<text xml:space="preserve" text-anchor="middle" x="303.86" y="-722.4" font-family="Inter" font-size="14.00">legacy outputs</text>
+</g>
+<!-- VecTxIn&#45;&gt;CompactSize -->
+<g id="edge32" class="edge">
+<title>VecTxIn-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M448.98,-676.54C482.68,-664.25 532.07,-645.95 574.79,-629 615.12,-613 622.68,-601.64 664.79,-591.2 736.25,-573.49 931.24,-599.17 994.78,-562 1018.71,-548 1035.5,-520.74 1045.58,-499.68"/>
+<polygon fill="black" stroke="black" points="1048.7,-501.28 1049.62,-490.72 1042.32,-498.4 1048.7,-501.28"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-595.4" font-family="Inter" font-size="14.00">count</text>
+</g>
+<!-- VecTxIn&#45;&gt;CompactSize -->
+<g id="edge60" class="edge">
+<title>VecTxIn-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M423.35,-672.72C435.01,-659.01 452.54,-640.67 471.37,-629 675.01,-502.77 766.79,-573.63 994.78,-500 1000.18,-498.26 1005.72,-496.16 1011.17,-493.9"/>
+<polygon fill="black" stroke="black" points="1012.31,-497.23 1020.07,-490.02 1009.51,-490.81 1012.31,-497.23"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-556.18" font-family="Inter" font-size="14.00">len</text>
+</g>
+<!-- VecTxIn&#45;&gt;TxIn -->
+<g id="edge33" class="edge">
+<title>VecTxIn-&gt;TxIn</title>
+<path fill="none" stroke="black" d="M448.9,-687.57C491.9,-684.79 556.59,-683.56 574.79,-699.2 581.91,-705.32 603.83,-828.64 613.78,-886.5"/>
+<polygon fill="black" stroke="black" points="610.32,-887.03 615.46,-896.3 617.22,-885.85 610.32,-887.03"/>
+<text xml:space="preserve" text-anchor="middle" x="523.08" y="-703.4" font-family="Inter" font-size="14.00">loop decode</text>
+</g>
+<!-- VecTxIn&#45;&gt;TxIn -->
+<g id="edge61" class="edge">
+<title>VecTxIn-&gt;TxIn</title>
+<path fill="none" stroke="black" d="M448.89,-708.1C456.29,-710.95 464.01,-713.72 471.37,-716 516.36,-729.96 541.1,-706.28 574.79,-739.2 595.57,-759.5 609.18,-841.67 615.21,-886.49"/>
+<polygon fill="black" stroke="black" points="611.73,-886.83 616.49,-896.3 618.67,-885.93 611.73,-886.83"/>
+<text xml:space="preserve" text-anchor="middle" x="523.08" y="-743.4" font-family="Inter" font-size="14.00">loop encode</text>
+</g>
+<!-- VecTxOut&#45;&gt;CompactSize -->
+<g id="edge42" class="edge">
+<title>VecTxOut-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M453.67,-492.99C487.08,-490.63 533.83,-487.06 574.79,-483 614.88,-479.03 624.58,-474.67 664.79,-472.2 784.42,-464.86 924.95,-467.05 1001.12,-469.13"/>
+<polygon fill="black" stroke="black" points="1000.73,-472.62 1010.82,-469.4 1000.93,-465.62 1000.73,-472.62"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-476.4" font-family="Inter" font-size="14.00">count</text>
+</g>
+<!-- VecTxOut&#45;&gt;CompactSize -->
+<g id="edge67" class="edge">
+<title>VecTxOut-&gt;CompactSize</title>
+<path fill="none" stroke="black" d="M453.58,-500.01C459.56,-500.42 465.61,-500.77 471.37,-501 517.3,-502.84 528.84,-502.04 574.79,-501 761.6,-496.78 809.06,-502.5 994.78,-482 996.95,-481.76 999.16,-481.49 1001.39,-481.2"/>
+<polygon fill="black" stroke="black" points="1001.71,-484.69 1011.11,-479.79 1000.71,-477.76 1001.71,-484.69"/>
+<text xml:space="preserve" text-anchor="middle" x="741.78" y="-503.65" font-family="Inter" font-size="14.00">len</text>
+</g>
+<!-- VecTxOut&#45;&gt;TxOut -->
+<g id="edge43" class="edge">
+<title>VecTxOut-&gt;TxOut</title>
+<path fill="none" stroke="black" d="M447.14,-477.52C455.12,-473.72 463.5,-469.79 471.37,-466.2 516.99,-445.35 534.84,-451.34 574.79,-421 584.47,-413.65 593.33,-403.75 600.52,-394.43"/>
+<polygon fill="black" stroke="black" points="603.14,-396.78 606.23,-386.65 597.5,-392.64 603.14,-396.78"/>
+<text xml:space="preserve" text-anchor="middle" x="523.08" y="-470.4" font-family="Inter" font-size="14.00">loop decode</text>
+</g>
+<!-- VecTxOut&#45;&gt;TxOut -->
+<g id="edge68" class="edge">
+<title>VecTxOut-&gt;TxOut</title>
+<path fill="none" stroke="black" d="M415.76,-477.69C424.93,-455.72 443.39,-419.43 471.37,-400.2 510.11,-373.57 529,-388.64 574.79,-378 576.92,-377.51 579.1,-376.99 581.3,-376.46"/>
+<polygon fill="black" stroke="black" points="581.95,-379.91 590.83,-374.13 580.28,-373.11 581.95,-379.91"/>
+<text xml:space="preserve" text-anchor="middle" x="523.08" y="-404.4" font-family="Inter" font-size="14.00">loop encode</text>
+</g>
+<!-- Amount&#45;&gt;u64 -->
+<g id="edge69" class="edge">
+<title>Amount-&gt;u64</title>
+<path fill="none" stroke="black" d="M898.94,-198.94C965.36,-199.39 1128.73,-203.68 1261.61,-233 1263.89,-233.5 1266.22,-234.08 1268.55,-234.72"/>
+<polygon fill="black" stroke="black" points="1267.33,-238 1277.91,-237.55 1269.35,-231.3 1267.33,-238"/>
+<text xml:space="preserve" text-anchor="middle" x="1058.1" y="-213.2" font-family="Inter" font-size="14.00">sats</text>
+</g>
+</g>
+</svg>
